@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.poldasumbarpimpinan">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/bg1"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/bg1"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".view.LoginActivity"></activity>
+        <activity android:name=".view.GetPeraturanActivity" />
+        <activity android:name=".view.GetNaskahKermaActivity" />
+        <activity android:name=".view.GetPidanaActivity" />
+        <activity android:name=".view.GetDisiplinActivity" />
+        <activity android:name=".view.GetKkeActivity" />
+        <activity android:name=".view.GetPshActivity" />
+        <activity android:name=".view.HomeActivity" />
+        <activity android:name=".view.SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
